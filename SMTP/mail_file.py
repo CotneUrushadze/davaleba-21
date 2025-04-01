@@ -13,7 +13,7 @@ receiver_email = 'nika@mziuri.ge'
 file_path = r'C:\Users\ILOo\Desktop\a.txt'
 
 message = MIMEMultipart()
-message['Subject'] = 'სატესტო - Attached File'
+message['Subject'] = 'სატესტო, ფაილით'
 message['From'] = sender_email
 message['To'] = receiver_email
 text = MIMEText('ფაილი')
